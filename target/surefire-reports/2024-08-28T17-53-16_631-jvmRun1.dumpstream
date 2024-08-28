@@ -1,0 +1,161 @@
+# Created at 2024-08-28T17:53:18.100
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2024-08-28T17:53:18.108
+Unexpected IOException with stream: 17:53:18.107 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1efe439d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@be68757, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7d446ed1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12d2ce03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e5c856f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@413f69cc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f53a5dc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b75c2e3, org.springframework.test.context.event.EventPublishingTestExecutionListener@1984b1f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3bd323e9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@39ac0c0a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c7ba306, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ff8d125, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d167f58, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3403e2ac]
+
+
+# Created at 2024-08-28T17:53:18.117
+Unexpected IOException with stream: 17:53:18.117 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@21ba0741 testClass = JournalAppApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@58ce9668 testClass = JournalAppApplicationTests, locations = '{}', classes = '{class net.engineeringdigest.journalApp.JournalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2dde1bff, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@48974e45, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@24fcf36f, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@759d26fb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3bf9ce3e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@305fd85d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2024-08-28T17:53:19.011
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-28T17:53:19.012
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2024-08-28T17:53:19.012
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2024-08-28T17:53:19.013
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2024-08-28T17:53:19.013
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2024-08-28T17:53:19.013
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2024-08-28T17:53:19.014
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2024-08-28T17:53:19.015
+Unexpected IOException with stream:  :: Spring Boot ::               (v2.7.16)
+
+
+# Created at 2024-08-28T17:53:19.016
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-28T17:53:19.089
+Unexpected IOException with stream: 2024-08-28 17:53:19.088  INFO 6972 --- [           main] n.e.j.JournalAppApplicationTests         : Starting JournalAppApplicationTests using Java 16.0.2 on DESKTOP-5SMSKLT with PID 6972 (started by aryson in D:\IntelliJIdeaI\Projects\journalAppAugust)
+
+
+# Created at 2024-08-28T17:53:19.091
+Unexpected IOException with stream: 2024-08-28 17:53:19.090  INFO 6972 --- [           main] n.e.j.JournalAppApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+
+
+# Created at 2024-08-28T17:53:20.137
+Unexpected IOException with stream: 2024-08-28 17:53:20.136  INFO 6972 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+
+
+# Created at 2024-08-28T17:53:20.191
+Unexpected IOException with stream: 2024-08-28 17:53:20.190  INFO 6972 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 MongoDB repository interfaces.
+
+
+# Created at 2024-08-28T17:53:20.918
+Unexpected IOException with stream: 2024-08-28 17:53:20.917  INFO 6972 --- [3ed.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.gn3ed.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2024-08-28T17:53:20.949
+Unexpected IOException with stream: 2024-08-28 17:53:20.947  INFO 6972 --- [           main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Foundation/16.0.2+7"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='akashsahublue', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@479b5066]}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.gn3ed.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-f9h9vs-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+
+
+# Created at 2024-08-28T17:53:20.951
+Unexpected IOException with stream: 2024-08-28 17:53:20.948  INFO 6972 --- [3ed.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.gn3ed.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2024-08-28T17:53:20.954
+Unexpected IOException with stream: 2024-08-28 17:53:20.954  INFO 6972 --- [3ed.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.gn3ed.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2024-08-28T17:53:21.634
+Unexpected IOException with stream: 2024-08-28 17:53:21.633  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:5374}] to cluster0-shard-00-00.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.635
+Unexpected IOException with stream: 2024-08-28 17:53:21.634  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:5103}] to cluster0-shard-00-02.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.635
+Unexpected IOException with stream: 2024-08-28 17:53:21.633  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:5374}] to cluster0-shard-00-00.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.636
+Unexpected IOException with stream: 2024-08-28 17:53:21.634  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:6717}] to cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.639
+Unexpected IOException with stream: 2024-08-28 17:53:21.633  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:5103}] to cluster0-shard-00-02.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.644
+Unexpected IOException with stream: 2024-08-28 17:53:21.643  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:6717}] to cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.646
+Unexpected IOException with stream: 2024-08-28 17:53:21.645  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.gn3ed.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=327292300, setName='atlas-f9h9vs-shard-0', canonicalAddress=cluster0-shard-00-01.gn3ed.mongodb.net:27017, hosts=[cluster0-shard-00-00.gn3ed.mongodb.net:27017, cluster0-shard-00-01.gn3ed.mongodb.net:27017, cluster0-shard-00-02.gn3ed.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.gn3ed.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000008e, setVersion=103, topologyVersion=TopologyVersion{processId=66cedec324a706c8033220bd, counter=9}, lastWriteDate=Wed Aug 28 17:53:21 IST 2024, lastUpdateTimeNanos=29550373487500}
+
+
+# Created at 2024-08-28T17:53:21.648
+Unexpected IOException with stream: 2024-08-28 17:53:21.645  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.gn3ed.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=316374900, setName='atlas-f9h9vs-shard-0', canonicalAddress=cluster0-shard-00-00.gn3ed.mongodb.net:27017, hosts=[cluster0-shard-00-00.gn3ed.mongodb.net:27017, cluster0-shard-00-01.gn3ed.mongodb.net:27017, cluster0-shard-00-02.gn3ed.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.gn3ed.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=103, topologyVersion=TopologyVersion{processId=66cee0601c0973898c670d54, counter=5}, lastWriteDate=Wed Aug 28 17:53:21 IST 2024, lastUpdateTimeNanos=29550362567900}
+
+
+# Created at 2024-08-28T17:53:21.649
+Unexpected IOException with stream: 2024-08-28 17:53:21.647  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.gn3ed.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=310754500, setName='atlas-f9h9vs-shard-0', canonicalAddress=cluster0-shard-00-02.gn3ed.mongodb.net:27017, hosts=[cluster0-shard-00-00.gn3ed.mongodb.net:27017, cluster0-shard-00-01.gn3ed.mongodb.net:27017, cluster0-shard-00-02.gn3ed.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.gn3ed.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=103, topologyVersion=TopologyVersion{processId=66cee1a8851b44a68e85fe50, counter=5}, lastWriteDate=Wed Aug 28 17:53:21 IST 2024, lastUpdateTimeNanos=29550362053500}
+
+
+# Created at 2024-08-28T17:53:21.654
+Unexpected IOException with stream: 2024-08-28 17:53:21.654  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000008e from replica set primary cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.661
+Unexpected IOException with stream: 2024-08-28 17:53:21.659  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 103 from replica set primary cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.675
+Unexpected IOException with stream: 2024-08-28 17:53:21.675  INFO 6972 --- [           main] org.mongodb.driver.cluster               : No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@6ad179b4 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=cluster0-shard-00-00.gn3ed.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=cluster0-shard-00-01.gn3ed.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=cluster0-shard-00-02.gn3ed.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+
+
+# Created at 2024-08-28T17:53:21.676
+Unexpected IOException with stream: 2024-08-28 17:53:21.675  INFO 6972 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:21.890
+Unexpected IOException with stream: 2024-08-28 17:53:21.889  INFO 6972 --- [           main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:6489}] to cluster0-shard-00-01.gn3ed.mongodb.net:27017
+
+
+# Created at 2024-08-28T17:53:22.425
+Unexpected IOException with stream: 2024-08-28 17:53:22.425  INFO 6972 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@625487a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@682e445e, org.springframework.security.web.context.SecurityContextPersistenceFilter@54f6b629, org.springframework.security.web.header.HeaderWriterFilter@2c9fdb64, org.springframework.security.web.authentication.logout.LogoutFilter@578c3fd9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1eb9bf60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@147cc940, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58a7dc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79e10fb4, org.springframework.security.web.session.SessionManagementFilter@5627cb29, org.springframework.security.web.access.ExceptionTranslationFilter@1c84d80a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77c66a4f]
+
+
+# Created at 2024-08-28T17:53:23.263
+Unexpected IOException with stream: 2024-08-28 17:53:23.263  INFO 6972 --- [           main] n.e.j.JournalAppApplicationTests         : Started JournalAppApplicationTests in 5.094 seconds (JVM running for 6.225)
+
+
+# Created at 2024-08-28T17:53:23.286
+Unexpected IOException: 5,1,net.engineeringdigest.journalApp.JournalAppApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2024-08-28T17:53:23.767
+Unexpected IOException: 6,1,net.engineeringdigest.journalApp.JournalAppApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2024-08-28T17:53:23.771
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,net.engineeringdigest.journalApp.JournalAppApplicationTests,null,null,null
+
+
