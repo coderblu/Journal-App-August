@@ -24,8 +24,8 @@ public class SpringSecurity extends WebSecurityConfigurerAdapter {
                 .anyRequest().permitAll()
                 .and()
                 .httpBasic();
-        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-//    http.csrf().disable();
+//        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+    http.csrf().disable();
     }
 
     @Override

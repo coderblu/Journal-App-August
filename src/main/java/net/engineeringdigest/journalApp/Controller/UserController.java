@@ -1,10 +1,7 @@
 package net.engineeringdigest.journalApp.Controller;
 
-import net.engineeringdigest.journalApp.Entity.JournalEntry;
 import net.engineeringdigest.journalApp.Entity.User;
 import net.engineeringdigest.journalApp.Repository.UserRepository;
-import net.engineeringdigest.journalApp.Service.JournalEntryService;
-import net.engineeringdigest.journalApp.Service.UserDetailsServiceImpl;
 import net.engineeringdigest.journalApp.Service.UserService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.web.PortResolverImpl;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -65,7 +60,7 @@ public class UserController {
         if (userInDb != null) {
           userInDb.setUserName(user.getUserName());
           userInDb.setPassword(user.getPassword());
-          userService.saveEntry(userInDb);
+          userService.saveNewUser(userInDb);
             return new ResponseEntity<>(userInDb,HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
