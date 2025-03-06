@@ -30,6 +30,11 @@ public class UserService {
     public boolean saveNewUser(User user) {
         try {
             log.info("Saving New User");
+            System.err.println(passwordEncoder.encode("Ram"));
+            System.err.println(passwordEncoder.encode("Ram"));
+            System.err.println(passwordEncoder.encode("Ram"));
+            System.err.println(passwordEncoder.encode("Ram"));
+            System.err.println("Password - "+user.getPassword()+" Hashvalue  - "+passwordEncoder.encode(user.getPassword()));
             user.setPassword(passwordEncoder.encode(user.getPassword()));
             user.setRoles(Arrays.asList("USER"));
             userRepository.save(user);
@@ -38,7 +43,6 @@ public class UserService {
             log.info("hahahahaha");
             return false;
         }
-
     }
 
     public void saveAdmin(User user) {

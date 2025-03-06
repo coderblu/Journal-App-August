@@ -24,21 +24,6 @@ public class UserController {
     private WeatherService weatherService;
     private UserRepository userRepository;
 
-
-//    @GetMapping()
-//    public ResponseEntity<?> getAll() {
-//        List<User> allEntries = userService.getAll();
-//        if(allEntries !=null && !allEntries.isEmpty())
-//        {
-//            return new ResponseEntity<>(allEntries,HttpStatus.OK);
-//        }
-//        else {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//    }
-
-
-
     @GetMapping("/id/{myId}")
     public ResponseEntity<User> getJournalEntryById(@PathVariable ObjectId myId) {
         Optional<User> user = userService.findById(myId);

@@ -7,6 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @RequestMapping("/public")
 public class PublicController {
@@ -25,5 +28,10 @@ public class PublicController {
         } catch (Exception e) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
+    }
+    @GetMapping("/get-all")
+    public ResponseEntity<List<User>> getAllUsers()
+    {
+        return new ResponseEntity<>(userService.getAll(),HttpStatus.OK);
     }
 }
