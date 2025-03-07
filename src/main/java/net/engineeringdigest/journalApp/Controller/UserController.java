@@ -20,7 +20,7 @@ import java.util.Optional;
 public class UserController {
     @Autowired
     private UserService userService;
-    @Autowired
+        @Autowired
     private WeatherService weatherService;
     private UserRepository userRepository;
 

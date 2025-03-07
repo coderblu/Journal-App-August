@@ -2,6 +2,7 @@ package net.engineeringdigest.journalApp.Service;
 
 import net.engineeringdigest.journalApp.api.response.WeatherResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -10,7 +11,8 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class WeatherService {
-    private static final String apiKey = "Fsfgasgsagsafgaga";
+    @Value("${weather.api.key}")
+    private static  String apiKey ;
     private  static final String API = "fsdgsdgsdgfdgfdg";
 
     @Autowired
