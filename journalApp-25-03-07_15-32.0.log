@@ -1,0 +1,1 @@
+25-03-07 15:32:59.992 [cluster-rtt-ClusterId{value='67cab3b8e3e7f7136334f457', description='null'}-aryson-shard-00-00.gn3ed.mongodb.net:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:26, serverValue:315}] to aryson-shard-00-00.gn3ed.mongodb.net:27017 

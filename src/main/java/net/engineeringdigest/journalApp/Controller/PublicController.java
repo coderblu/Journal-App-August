@@ -22,12 +22,12 @@ public class PublicController {
     }
     @PostMapping("/create-user")
     public ResponseEntity<User> createUser(@RequestBody User user) {
-        try {
-            userService.saveNewUser(user);
-            return new ResponseEntity<User>(user, HttpStatus.CREATED);
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        }
+            try {
+                userService.saveNewUser(user);
+                return new ResponseEntity<User>(user, HttpStatus.CREATED);
+            } catch (Exception e) {
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            }
     }
     @GetMapping("/get-all")
     public ResponseEntity<List<User>> getAllUsers()
