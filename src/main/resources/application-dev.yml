@@ -9,6 +9,19 @@ spring:
       database : journaldb
       auto-index-creation : true
 
+      mail:
+        host: smtp.gmail.com
+        port : 587
+        username: akashsahuda.blue@gmail.com
+        password : tbgp epck viia gvas
+        properties :
+          mail :
+            smtp :
+              auth : true
+              starttls :
+                enable : true
+
+
 server:
   port: 8080
 #  servlet:
@@ -18,3 +31,5 @@ server:
 data :
   api :
     key : Fsfgasgsagsafgaga
+
+
