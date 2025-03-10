@@ -2,12 +2,6 @@
 #spring.data.mongodb.port = 27017
 #spring.data.mongodb.uri = mongodb+srv://akashsahublue:EVYbTYSsVR8brjSN@cluster0.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 spring:
-    data:
-      mongodb:
-      uri : mongodb+srv://akashsahublue:awdwefgagargar@aryson.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Aryson
-#      uri : mongodb+srv://akashsahublue:<db_password>@cluster0.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-      database : journaldb
-      auto-index-creation : true
 
       mail:
         host: smtp.gmail.com
@@ -20,6 +14,14 @@ spring:
               auth : true
               starttls :
                 enable : true
+
+      data:
+        mongodb:
+        uri: mongodb+srv://akashsahublue:awdwefgagargar@aryson.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Aryson
+        #      uri : mongodb+srv://akashsahublue:<db_password>@cluster0.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        database: journaldb
+        auto-index-creation: true
+
 
 
 server:
