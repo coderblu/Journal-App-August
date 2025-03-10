@@ -2,7 +2,6 @@
 #spring.data.mongodb.port = 27017
 #spring.data.mongodb.uri = mongodb+srv://akashsahublue:EVYbTYSsVR8brjSN@cluster0.gn3ed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 spring:
-
       mail:
         host: smtp.gmail.com
         port : 587
@@ -22,7 +21,14 @@ spring:
         database: journaldb
         auto-index-creation: true
 
+#      redis :
+#        host : localhost
+#        port : 6379
 
+      redis :
+        port : 14297
+        host : redis-14297.crce179.ap-south-1-1.ec2.redns.redis-cloud.com
+        password :  I1LHR01cAC3rGiwqEvSd3yaMo1h9wW3x
 
 server:
   port: 8080
@@ -35,3 +41,16 @@ data :
     key : Fsfgasgsagsafgaga
 
 
+#redis for office computer
+#username - aryson
+#password - root
+#  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+#
+#  echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+#
+#  sudo apt-get update
+#  sudo apt-get install redis
+#
+#  sudo service redis-server start
+#
+#  redis-cli
